@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/infinix/X6831
+LOCAL_PATH := device/tecno/KI7
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -26,8 +26,7 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     vbmeta_system \
     vbmeta_vendor \
-    vendor \
-    vendor_boot
+    vendor 
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -46,13 +45,13 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_TARGET_VNDK_VERSION := 31
 
 # API
-PRODUCT_SHIPPING_API_LEVEL := 32
+PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service \
-    #libhealthd.$(PRODUCT_PLATFORM)
+    libhealthd.$(PRODUCT_PLATFORM)
 
 # Boot Control HAL
 PRODUCT_PACKAGES += \
@@ -93,9 +92,9 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 
 # MTK plpath utils
-#PRODUCT_PACKAGES += \
-#    mtk_plpath_utils \
-#    mtk_plpath_utils.recovery
+PRODUCT_PACKAGES += \
+    mtk_plpath_utils \
+    mtk_plpath_utils.recovery
 
 # Recovery modules
 TARGET_RECOVERY_DEVICE_MODULES += \
