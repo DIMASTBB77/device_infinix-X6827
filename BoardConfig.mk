@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/X6831
+DEVICE_PATH := device/tecno/KI7
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -34,7 +34,7 @@ TARGET_BOOTLOADER_BOARD_NAME := TECNO-KI7
 TARGET_NO_BOOTLOADER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Infinix-X6831,X6831
+TARGET_OTA_ASSERT_DEVICE := tecno-KI7
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
@@ -182,7 +182,7 @@ TW_CUSTOM_CPU_POS := 580
 TW_CUSTOM_CLOCK_POS := 60
 
 # Version
-TW_DEVICE_VERSION := TegarXLu | Kl7 >a12< Stable
+TW_DEVICE_VERSION := TegarXLu | KI7 >a12< Stable
 
 # Debug
 #TWRP_INCLUDE_LOGCAT := true
