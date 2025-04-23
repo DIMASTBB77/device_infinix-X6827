@@ -1,4 +1,4 @@
-# Android device tree for tecno spark 10 pro (Kl7)
+# Android device tree for infinix hot20s (X6827)
 
 Blocking checks
 - [x] Correct screen/recovery size
