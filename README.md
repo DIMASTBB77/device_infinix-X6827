@@ -1,8 +1,8 @@
-# Android device tree for Infinix Hot 30 (X6831)
+# Android device tree for Infinix Hot 20S (X6827)
 
 Blocking checks
 - [x] Correct screen/recovery size
-- [x] Working Touch ~~(sometimes working, TWRP specific bug, not present in OFRP/PBRP)~~
+- [x] Working Touch
 - [x] Backup to internal/microSD
 - [x] Restore from internal/microSD
 - [x] reboot to system
