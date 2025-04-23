@@ -25,3 +25,4 @@ PRODUCT_BRAND := tecno
 PRODUCT_MODEL := tecno spark 10 pro
 PRODUCT_MANUFACTURER := tecno
 
+PRODUCT_GMS_CLIENTID_BASE := android-tecno
