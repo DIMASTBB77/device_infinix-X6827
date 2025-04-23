@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_X6831.mk
+    $(LOCAL_DIR)/twrp_KI7.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_X6831-user \
-    twrp_X6831-userdebug \
-    twrp_X6831-eng
+    twrp_KI7-user \
+    twrp_KI7-userdebug \
+    twrp_KI7-eng
